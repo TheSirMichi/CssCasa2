@@ -1,0 +1,57 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+div{
+  width:150px;
+  height:150px;
+  border:2px solid yellow;
+  background:red;
+  margin:10px;
+}
+#color2{
+  text-align:center;
+  background:purple;
+  color:pink ;
+  border:2px dashed red ;
+}
+.color3{
+  background:#f107f4;
+  color: #2baf3c;
+  border:2px dashed #4f7a8d;
+}
+#color4{
+  background:#dda;
+  color:#dcb ;
+  border:2px dashed #abc ;
+}
+#color5{
+  background:rgb(40,189,245);
+  color:rgb(73,92,36) ;
+  border:2px dashed  rgb(17,49,94);
+}
+body{
+  background: linear-gradient(black,gray);
+}
+h1{
+  background:linear-gradient(to left, blue,purple,pink,red);
+  -webkit-background-clip: text;
+  color:transparent;
+}
+#color6{
+  background:rgb(40%,18%,20%);
+  color:rgb(73%,92%,36%) ;
+  border:2px dashed  rgb(17%,49%,94%);
+}
+#color7{
+  background:linear-gradient(red,yellow);
+}
+#color8{
+  background: rgba(140,20,30,0.5);
+}
+#color9{
+  background: linear-gradient(to right ,red,yellow);
+}
+#color10{
+  background:linear-gradient(45deg,red,orange,yellow,green,blue,indigo,violet);
+}

@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+text-align: center;
+}
+h1{
+    font-family:'Raleway','cursive´';
+}
+@font-face{  
+    font-family:'Smokum';
+    src:local(smokum),
+    url(fonts/Smokum-Regular.ttf) format("truetype");
+
+}
+@font-face{
+    font-family: 'RubikIso-Regular'; 
+    src:local("RubikIso-Regular"),
+    url("fonts/RubikIso-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family:'Sono-Bold'; 
+    src:local('Sono-Bold'),
+    url("fonts/Sono-Bold.ttf") format("truetype");
+}
+@font-face{
+    font-family:'ClimateCrisis-Regular';  
+    src: local(ClimateCrisis-Regular),
+    url(fonts/ClimateCrisis-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family:'ClimateCrisis-Regular';  
+    src: local(ClimateCrisis-Regular),
+    url(fonts/ClimateCrisis-Regular.ttf) format("truetype");
+}
+@font-face{
+font-family: "Roboto";
+src: local("Roboto"),
+url("fonts/Roboto-bold.ttf") format("truetype");
+}
+.roboto{
+    font-family: "Roboto";
+    src: local("Roboto"),
+    url("fonts/Roboto-bold.ttf");
+}
+.si{
+    font-family: 'RubikIso-Regular'; 
+    src:local("RubikIso-Regular"),
+    url("fonts/RubikIso-Regular.ttf") ;
+}
+.So{
+    font-family:'Sono-Bold'; 
+    src:local('Sono-Bold'),
+    url("fonts/Sono-Bold.ttf");
+}
+.se{
+    font-family:'ClimateCrisis-Regular';
+    src: local(ClimateCrisis-Regular),
+    url(fonts/ClimateCrisis-Regular.ttf);
+}
+.su{
+    font-family:'Smokum';
+    src:local(smokum),
+    url(fonts/Smokum-Regular.ttf)
+}
+.izq{
+    text-align:left;
+}
+.der{
+    text-align:right;
+}
+.cen{
+    text-align:center;
+}
+.jus{
+    text-align:justify;
+}
+.interlineado1{
+line-height:0.5;
+font-size:1em;
+}
+.interlineado2{
+    line-height:3.2;
+    font-size:1em;
+}
+.libre{
+font-family:'roboto';
+font-size:72px;
+background:linear-gradient(to bottom right, red, yellow);
+-webkit-background-clip:text;
+color:transparent;
+}
+.libre:hover{
+    font-family:'roboto';
+    font-size:72px;
+    background:linear-gradient(to bottom right, red, yellow);
+    -webkit-background-clip:text;
+    color:transparent;
+    transition:1s all ease;
+    transform:scale(1.1);
+    transform:rotate(360deg);
+}
